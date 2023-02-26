@@ -45,7 +45,7 @@ subprocess.call("mkdir " + y, shell=True)
 invalid = True
 
 while invalid:
-    externals = input(colors.WARNING + colors.BOLD + "Do you Want to include External third Party Links?[Y/N]: ")
+    externals = "y"
     if externals == "Y" or externals == "y" or externals == "N" or externals == "n":
         invalid = False
     else:
@@ -54,7 +54,7 @@ while invalid:
 wayinvalid = True
 
 while wayinvalid:
-    waybacks = input(colors.WARNING + colors.BOLD + "Do you Want to include Way Back Urls?[Y/N]: ")
+    waybacks = "y"
     if waybacks == "Y" or waybacks == "y" or waybacks == "N" or waybacks == "n":
         wayinvalid = False
     else:
